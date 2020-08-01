@@ -21,6 +21,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/views/index.html'));
 });
 
+app.get('/home', (req, res) => {
+    res.sendFile(path.join(__dirname + '/views/home.html'));
+})
+
 app.listen(port, () => {
     console.log(`Express server listening on port : ${port}`);
 });

@@ -11,14 +11,14 @@ body {
     align-items: center;
 }
 
-.rectangle {
+#rectangle {
     width: 160px;
     height: 80px;
     background-color: gold;
     align-self: center;
 }
 
-.rectangleBorder {
+#rectangleBorder {
     width: 160px;
     height: 80px;
     border: gold solid 2px;

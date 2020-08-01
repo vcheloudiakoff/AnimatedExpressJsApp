@@ -6,8 +6,10 @@ $(document).ready(function()
 
 function onloadFadesAnimation() {
     console.log("Into function onloadFadesAnimation");
-    setTimeout(function(){
-        $('.rectangle').addClass('rectangleBorder');
-        $('.rectangle').removeClass('rectangle');
-    }, 5000);
+    $('#rectangle').fadeOut(5000, function() {
+        $('#rectangle').attr('id', 'rectangleBorder');
+        $('#rectangleBorder').fadeIn(2500, function(){
+            
+        })
+    });
 }

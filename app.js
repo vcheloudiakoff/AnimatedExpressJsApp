@@ -12,8 +12,10 @@ app.use(require("morgan")("dev"));
 
 var stylesPath = path.join(__dirname + '/styles');
 var imagesPath = path.join(__dirname + '/images');
+var scriptsPath = path.join(__dirname + '/scripts');
 app.use(express.static(stylesPath));
 app.use(express.static(imagesPath));
+app.use(express.static(scriptsPath));
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/views/index.html'));

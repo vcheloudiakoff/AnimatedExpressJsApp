@@ -15,7 +15,7 @@ a, a:hover, a:active, a:visited, a:focus {
     color: black;
 }
 
-.header, #backgroundHeader {
+.header {
     max-width: 100vw;
     height: 100vh;
     background: no-repeat center black;

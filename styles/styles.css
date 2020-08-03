@@ -24,12 +24,16 @@ a, a:hover, a:active, a:visited, a:focus {
     align-items: center;
 }
 
+/* #display {
+    display: flex;
+} */
+
 #rectangle {
+    display: none;
     width: 160px;
     height: 80px;
     background-color: gold;
     align-self: center;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -39,7 +43,7 @@ a, a:hover, a:active, a:visited, a:focus {
     height: 80px;
     border: gold solid 2px;
     align-self: center;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
@@ -48,7 +52,27 @@ a, a:hover, a:active, a:visited, a:focus {
     color: gold;
 }
 
+.splittedContainer {
+    display: flex;
+}
 
+#firstCol {
+    background: no-repeat center blue;
+    width: 33.33%;
+    height: 0vh;
+}
+
+#secondCol {
+    background: no-repeat center green;
+    width: 33.33%;
+    height: 0vh;
+}
+
+#thirdCol {
+    background: no-repeat center red;
+    width: 33.33%;
+    height: 0vh;
+}
 
 
 
@@ -65,7 +89,7 @@ a, a:hover, a:active, a:visited, a:focus {
 
 /* ANIMATIONS */
 
-.fade-in {
+/* .fade-in {
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
     -moz-animation: fadeIn ease 5s;
@@ -127,4 +151,4 @@ a, a:hover, a:active, a:visited, a:focus {
     @-ms-keyframes fadeOut {
     0% {opacity:1;}
     100% {opacity:0;}
-    }
+    } */

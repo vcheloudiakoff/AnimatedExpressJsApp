@@ -1,17 +1,15 @@
-
-$(document).ready(function()
-{
+$(document).ready(function() {
+    $('#rectangle').css('display', 'flex').hide();
     onloadFadesAnimation();
+    
 });
 
 function onloadFadesAnimation() {
-    var beginStr = $('#rectangle').text();
+    $('#buttonText a').text("PRET ?");
 
-    $('#buttonText a').text("Pret?");
-    // Premier fadeIn ne fonctionne pas
     $('#rectangle').fadeIn(2500, function(){
         $('#rectangle').fadeOut(2500, function() {
-            $('#buttonText a').text('Cliquez !');
+            $('#buttonText a').text('CLIQUEZ !');
             $('#rectangle').attr('id', 'rectangleBorder');
             $('#rectangleBorder').fadeIn(1500, function(){
             })

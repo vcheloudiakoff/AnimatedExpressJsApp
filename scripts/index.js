@@ -1,7 +1,6 @@
 $(document).ready(function() {
     $('#rectangle').css('display', 'flex').hide();
     onloadFadesAnimation();
-    
 });
 
 function onloadFadesAnimation() {
@@ -15,5 +14,4 @@ function onloadFadesAnimation() {
             })
         })
     });
-    
 }

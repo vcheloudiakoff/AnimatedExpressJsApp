@@ -53,7 +53,7 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 #firstCol {
-    background: no-repeat center blue;
+    background: no-repeat center #5DAAE5;
     width: 33.33%;
     height: 0vh;
 }
@@ -64,32 +64,44 @@ a, a:hover, a:active, a:visited, a:focus {
     width: 100%;
 }
 
+#secondCol > a {
+    height: 100vh;
+    display: inline-block;
+    width: 100%;
+}
+
+#thirdCol > a {
+    height: 100vh;
+    display: inline-block;
+    width: 100%;
+}
+
 #firstCol.background {
-    background: no-repeat center blue;
+    background: no-repeat center #5DAAE5;
     width: 33.33%;
     height: 100vh;
 }
 
 #secondCol {
-    background: no-repeat center green;
+    background: no-repeat center #419CE2;
     width: 33.33%;
     height: 0vh;
 }
 
 #secondCol.background {
-    background: no-repeat center green;
+    background: no-repeat center #419CE2;
     width: 33.33%;
     height: 100vh;
 }
 
 #thirdCol {
-    background: no-repeat center red;
+    background: no-repeat center #1589E1;
     width: 33.33%;
     height: 0vh;
 }
 
 #thirdCol.background {
-    background: no-repeat center red;
+    background: no-repeat center #1589E1;
     width: 33.33%;
     height: 100vh;
 }
